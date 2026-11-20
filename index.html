@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="UPTTIK Universitas Muhammadiyah Bengkulu - layanan teknologi informasi, jaringan, server, dan dukungan IT kampus.">
+  <title>UPTTIK | Universitas Muhammadiyah Bengkulu</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="UPTTIK Beranda">
+        <img class="brand-logo" src="assets/favicon.ico" alt="">
+        <span><b>UPTTIK</b><small>UNIVERSITAS MUHAMMADIYAH BENGKULU</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" class="active" data-i18n="navHome">Beranda</a>
+        <a href="#about" data-i18n="navAbout">Tentang</a>
+        <a href="#services" data-i18n="navServices">Layanan</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" data-i18n="navContact">Kontak</a>
+        <div class="nav-actions">
+          <button class="text-button" id="languageToggle" type="button">ID / EN</button>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema">☼</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <h1>UPTTIK UNIVERSITAS <span>MUHAMMADIYAH BENGKULU</span></h1>
+        <p data-i18n="heroDesc">Unit Pelaksana Teknis Teknologi Informasi dan Komunikasi yang mendukung pengelolaan sistem informasi, infrastruktur jaringan, serta layanan teknologi di lingkungan Universitas Muhammadiyah Bengkulu.</p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary" data-i18n="start">Mulai Sekarang <span>↗</span></a>
+          <a href="#contact" class="btn btn-outline" data-i18n="contactUs">Hubungi Kami</a>
+        </div>
+        <div class="hero-note"><span class="pulse"></span> Supporting a smarter connected campus</div>
+      </div>
+      <div class="hero-bottom container">
+        <span>01 — 05</span><span class="hero-line"></span><span>INFORMATION TECHNOLOGY</span>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img src="pkl.jpeg" alt="Tim UPTTIK Universitas Muhammadiyah Bengkulu">
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow"><span></span> ABOUT UPTTIK</div>
+          <h2 data-i18n="aboutTitle">Kami menyediakan Teknik &amp; Analisis Big Data &amp; Solusi Data.</h2>
+          <p class="lead" data-i18n="aboutLead">UPTTIK adalah unit kerja yang bertugas memberikan layanan dan pengelolaan di bidang teknologi informasi, komunikasi, dan telekomunikasi pada suatu instansi, seperti sekolah, kampus, atau lembaga pemerintahan.</p>
+          <p data-i18n="aboutText">UPTTIK adalah unit kerja yang bertugas memberikan layanan dan pengelolaan di bidang teknologi informasi, komunikasi, dan telekomunikasi di lingkungan Universitas Muhammadiyah Bengkulu.</p>
+          <a href="#contact" class="link-arrow" data-i18n="learnMore">Selengkapnya <span>↗</span></a>
+          <div class="about-stats">
+            <div><b>24/7</b><span>Digital infrastructure</span></div>
+            <div><b>5+</b><span>Core technology services</span></div>
+            <div><b>UMB</b><span>One connected campus</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span></span> WHAT WE DO</div><h2 data-i18n="servicesTitle">Layanan Unggulan Kami</h2></div>
+          <p data-i18n="servicesDesc">Menyediakan solusi teknologi yang andal dan inovatif untuk memajukan sistem digital di lingkungan kampus.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <img class="service-image" src="assets/layanan1.webp" alt="Infrastruktur dan jaringan kampus">
+            <div class="service-icon">⌁</div><span class="card-number">01 / NETWORK</span>
+            <h3 data-i18n="service1">Infrastruktur & Jaringan</h3>
+            <p data-i18n="service1d">Pengelolaan dan optimasi jaringan kampus untuk konektivitas internet yang stabil, cepat, dan aman.</p>
+            <a href="#contact" aria-label="Hubungi layanan jaringan">↗</a>
+          </article>
+          <article class="service-card">
+            <img class="service-image" src="assets/layanan2.webp" alt="Servis dan maintenance perangkat">
+            <div class="service-icon">⚙</div><span class="card-number">02 / MAINTENANCE</span>
+            <h3 data-i18n="service2">Servis & Maintenance Perangkat</h3>
+            <p data-i18n="service2d">Pemeliharaan dan perbaikan perangkat keras maupun perangkat lunak untuk menunjang aktivitas akademik.</p>
+            <a href="#contact" aria-label="Hubungi layanan maintenance">↗</a>
+          </article>
+          <article class="service-card">
+            <img class="service-image" src="assets/layanan3.webp" alt="Dukungan teknis IT support">
+            <div class="service-icon">◉</div><span class="card-number">03 / IT SUPPORT</span>
+            <h3 data-i18n="service3">Dukungan Teknis & IT Support</h3>
+            <p data-i18n="service3d">Layanan bantuan teknis dan penanganan kendala sistem IT secara responsif bagi seluruh civitas akademika.</p>
+            <a href="#contact" aria-label="Hubungi IT support">↗</a>
+          </article>
+          <article class="service-card">
+            <img class="service-image" src="assets/layanan4.webp" alt="Konfigurasi server dan data center">
+            <div class="service-icon">▦</div><span class="card-number">04 / DATA CENTER</span>
+            <h3 data-i18n="service4">Konfigurasi Server & Data Center</h3>
+            <p data-i18n="service4d">Pengaturan, pemantauan, dan pengamanan server serta pusat data untuk menjamin kelancaran sistem kampus.</p>
+            <a href="#contact" aria-label="Hubungi layanan server">↗</a>
+          </article>
+          <article class="service-card">
+            <img class="service-image" src="assets/layanan5.webp" alt="Pengembangan website dan sistem informasi">
+            <div class="service-icon">⌘</div><span class="card-number">05 / DEVELOPMENT</span>
+            <h3 data-i18n="service5">Pengembangan Website & Sistem Informasi</h3>
+            <p data-i18n="service5d">Pembuatan dan integrasi aplikasi web serta portal sistem informasi akademik sesuai kebutuhan unit kerja UMB.</p>
+            <a href="#contact" aria-label="Hubungi pengembangan sistem">↗</a>
+          </article>
+          <article class="service-card service-highlight">
+            <div class="highlight-orb"></div><span class="card-number">LET'S BUILD THE FUTURE</span>
+            <h3>Have a technical issue?</h3>
+            <p>Tim kami siap membantu kebutuhan teknologi dan kendala IT di lingkungan kampus.</p>
+            <a href="https://wa.me/6285199416317" target="_blank" rel="noopener">Hubungi tim kami ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container faq-grid">
+        <div><div class="eyebrow"><span></span> FAQ</div><h2 data-i18n="faqTitle">Pertanyaan yang Sering Diajukan</h2><p data-i18n="faqDesc">Temukan jawaban cepat untuk pertanyaan umum mengenai layanan dan dukungan teknologi kami.</p>
+          <a class="link-arrow" href="#contact">Masih punya pertanyaan? <span>↗</span></a>
+        </div>
+        <div class="accordion">
+          <article class="faq-item open"><button class="faq-question" aria-expanded="true">Apa itu UPTTIK UMB?<span>−</span></button><div class="faq-answer"><p>UPTTIK (Unit Pelaksana Teknis Teknologi Informasi dan Komunikasi) adalah unit kerja di Universitas Muhammadiyah Bengkulu yang bertanggung jawab atas pengelolaan infrastruktur IT, sistem informasi, dan layanan teknologi di lingkungan kampus.</p></div></article>
+          <article class="faq-item"><button class="faq-question" aria-expanded="false">Layanan apa saja yang disediakan oleh UPTTIK?<span>＋</span></button><div class="faq-answer"><p>Kami menyediakan pengelolaan jaringan internet kampus, pengembangan website dan sistem informasi akademik, pemeliharaan perangkat keras, serta dukungan teknis (IT Support) bagi civitas akademika.</p></div></article>
+          <article class="faq-item"><button class="faq-question" aria-expanded="false">Bagaimana cara mendapatkan bantuan jika ada kendala IT?<span>＋</span></button><div class="faq-answer"><p>Hubungi tim kami melalui WhatsApp pada tombol kontak atau kunjungi kantor UPTTIK UMB pada jam kerja.</p></div></article>
+          <article class="faq-item"><button class="faq-question" aria-expanded="false">Apakah layanan UPTTIK tersedia untuk mahasiswa?<span>＋</span></button><div class="faq-answer"><p>Ya. Mahasiswa, dosen, dan staf dapat memperoleh layanan serta dukungan teknologi untuk kepentingan akademik dan administratif.</p></div></article>
+          <article class="faq-item"><button class="faq-question" aria-expanded="false">Di mana lokasi dan jam operasional UPTTIK?<span>＋</span></button><div class="faq-answer"><p>Kantor UPTTIK berada di Jl. Bali, Komplek Universitas Muhammadiyah Gedung D, Kampung Bali, Bengkulu. Jam layanan Senin–Sabtu, pukul 08.00–14.00 WIB.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-copy"><div class="eyebrow light"><span></span> WE ARE HERE TO HELP</div><h2 data-i18n="contactTitle">Butuh Bantuan Mendesak?</h2><p data-i18n="contactDesc">Tim support IT UPTTIK aktif dan siap membantu kendala teknis Anda. Hubungi kami melalui WhatsApp atau kunjungi kantor kami.</p><a class="btn btn-white" href="https://wa.me/6285199416317" target="_blank" rel="noopener">Chat WhatsApp Sekarang <span>↗</span></a></div>
+        <div class="contact-decoration"><div class="ring ring-one"></div><div class="ring ring-two"></div><div class="tech-symbol">U<span>+</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark">U</span><span><b>UPTTIK</b><small>UNIVERSITAS MUHAMMADIYAH BENGKULU</small></span></a><p>Membangun masa depan digital Universitas Muhammadiyah Bengkulu melalui teknologi informasi yang andal dan inovatif.</p></div>
+      <div><h4>Layanan</h4><a href="#services">Infrastruktur & Jaringan</a><a href="#services">Servis & Maintenance</a><a href="#services">IT Support</a><a href="#services">Server & Data Center</a><a href="#services">Pengembangan Sistem</a></div>
+      <div><h4>Akademik</h4><a href="https://siakad.umb.ac.id/" target="_blank" rel="noopener">SIAKAD ↗</a><a href="https://simaru.umb.ac.id/" target="_blank" rel="noopener">SIMARU ↗</a><a href="https://sikamu.umb.ac.id/" target="_blank" rel="noopener">SIKAMU ↗</a><a href="https://presensi.umb.ac.id/" target="_blank" rel="noopener">SISENJA ↗</a><a href="https://sikawan.umb.ac.id/" target="_blank" rel="noopener">SIKAWAN ↗</a></div>
+      <div><h4>Kontak</h4><p>Jl. Bali, Komplek Universitas Muhammadiyah Gedung D, Kampung Bali, Bengkulu</p><a href="mailto:upttik.umb@gmail.com">upttik.umb@gmail.com</a><a href="tel:+6285199416317">+62 851-9941-6317</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> UPTTIK Universitas Muhammadiyah Bengkulu.</span><a href="#top">Kembali ke atas ↑</a></div>
+  </footer>
+  <a class="floating-wa" href="https://wa.me/6285199416317" target="_blank" rel="noopener" aria-label="Chat WhatsApp">✆</a>
+  <script src="script.js"></script>
+</body>
+</html>
